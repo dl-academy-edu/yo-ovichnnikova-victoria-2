@@ -1,0 +1,50 @@
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 129px;
+  }
+  
+  .header-menu {
+    margin: 0 auto 0 64px;
+  }
+  
+  .header-list {
+    display: flex;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+  }
+  
+  .header-menu a {
+    color: #1E0606;
+    margin-right: 20px;
+  }
+  
+  .header a:hover,
+  .search:hover {
+    opacity: 50%;
+  }
+  
+  .header a:active, 
+  .search:active {
+    opacity: 10%;
+  }
+  
+  .search {
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    margin-right: 17px;
+  }
+  .contact-us {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1E0606;
+    text-transform: uppercase;
+    margin-right: -10px;
+  }
+  
