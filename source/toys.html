@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>toys</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,700;1,400&family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+    @@include('blocks/header.html')
+
+    <main >
+        <section class="container">
+            <h1 class="toys-title">Toy for kids</h1>
+            <div class="crumbs">
+                <a href="index.html" class="breadcrumbs-link">Home</a>
+                <a href="catalog.html" class="breadcrumbs-link">Catalog</a>
+                <p class="this-page">Toys</p>
+            </div>
+        </section>
+        
+        <div class="section-color">
+            <div class="container choice">  
+                <div class="slidecontainer">
+                    <p class="choice-title">Cost</p>
+                      <div class="cost-first"></div>  
+                      <div class="cost-second"></div> 
+                    <ul class="unddoted step">
+                        <li>0</li>
+                        <li>500</li>
+                    </ul>    
+                </div>
+                <fieldset>
+                    <legend class="choice-title">Color</legend> 
+                    <ul class="unddoted checkbox-list">
+                        <li>
+                            <input type="checkbox" id="input-black" class="checkbox-input" checked>
+                            <label for="input-black" class="checkbox-label">Black</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="input-blue" class="checkbox-input">
+                            <label for="input-blue" class="checkbox-label">Blue</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="input-green" class="checkbox-input"> 
+                            <label for="input-green" class="checkbox-label">Green</label>
+                      </li>
+                        <li>
+                            <input type="checkbox" id="input-white" class="checkbox-input">
+                            <label for="input-white" class="checkbox-label">White</label>
+                      </li>
+                    </ul>
+                </fieldset>
+                <fieldset>
+                    <legend class="choice-title">Delivery</legend>
+                  <ul class="unddoted radio-list">
+                    <li>
+                        <input type="radio" id="input-free" name="delivery" class="radio-input">
+                        <label for="input-free" class="radio-label">Free shipping</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="input-fast" name="delivery" class="radio-input" checked>
+                        <label for="input-fast" class="radio-label">Fast shipping</label>
+                    </li>
+                  </ul>
+                </fieldset>
+                <fieldset>
+                    <legend class="choice-title">Amount</legend>
+                    <ul class="unddoted amount">
+                        <li>
+                            <input type="radio" id="input-0-5" name="amoun" class="radio-amoun" checked>
+                            <label for="input-0-5" class="amount-label">0-5</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="input-10-20" name="amoun" class="radio-amoun">
+                            <label for="input-10-20" class="amount-label">10-20</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="input-20-50" name="amoun" class="radio-amoun">
+                            <label for="input-20-50" class="amount-label">20-50</label>
+                        </li>
+                    </ul> 
+                </fieldset>
+
+                <button type="submit" class="button button-first">Apply</button>
+            </div>
+        </div>
+        <div class="container toys-item">
+            <ul class="unddoted toys-list">
+                <li data-tooltip="learn more">
+                    <a href="#"><img src="images/SHARKY.png" alt=""> 
+                        <p class="name">SHARKY BEAN BAG CHAIR COVER</p>
+                        <p class="price">$60.00 USD</p>  
+                    </a>
+                </li>
+                <li data-tooltip="learn more">
+                <a href="#"><img src="images/BRASS.png" alt="">
+                    <p class="name">BRASS DECO FRAMES</p>
+                    <p class="price">$66.00 USD</p>
+                </a>  
+                </li>
+                <li data-tooltip="learn more">
+                    <a href="#"><img src="images/CIBO.png" alt="">
+                        <p class="name">CIBO FULL APRON</p>
+                        <p class="price">$60.00 USD</p>
+                    </a> 
+                </li>
+                <li data-tooltip="learn more">
+                   <a href="#"><img src="images/GATCHA.png" alt="">
+                        <p class="name">GATCHA GATCHA GUMBALL MACHINE</p>
+                        <p class="price">$56.00 USD</p>
+                    </a>
+                 </li> 
+                <li data-tooltip="learn more">
+                    <a href="#"><img src="images/ADVENT.png" alt="">
+                        <p class="name">CHRISTMAS ADVENT SCENTED CANDLE</p>
+                        <p class="price">$29.00 USD</p>
+                    </a>
+                </li>
+                <li data-tooltip="learn more">
+                  <a href="#"><img src="images/TANGLE.png" alt="">
+                    <p class="name">TANGLE SPINNING TEA LIGHT</p>
+                    <p class="price">$56.00 USD</p>
+                </a>  
+                </li>
+            </ul>
+        </div>
+        <div class="container pagination">
+            <a href="#" class="arrow-l"></a>
+            <ul class="unddoted page-list">
+                <li>
+                    <a href="#" class="page-1">1</a>
+                </li>
+                <li>
+                    <a href="#">2</a>
+                </li>
+                <li>
+                    <a href="#">3</a>
+                </li>
+                <li>
+                    <a href="#">4</a>
+                </li>
+            </ul>
+            <a href="#" class="arrow-r"></a>
+        </div>
+        
+    </main>
+
+    @@include('blocks/footer.html')
+    
+</body>
+</html>

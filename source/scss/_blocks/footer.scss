@@ -1,10 +1,139 @@
-/*
-  Код ниже нужно удалить, он добавлен просто для примера
-*/
+/*footer*/
+
 .footer {
-  background-color: #151515;
-  color: #fff;
-  padding: 40px 0;
-  text-align: center;
-  height: 100px;
-}
+    display: flex;
+    justify-content: center;
+    background: #434343;
+    margin: auto;
+    
+  }
+  
+  .footer-block {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+  
+  }
+  
+  .footer-list li {
+    margin-bottom: 15px;  
+  }
+  
+  .footer-list a {
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+  }
+  
+  
+  
+  .footer-list {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    margin-top: 100px;
+    margin-bottom: 13px;
+  }
+  
+  .footer-list a:hover,
+  .connect a:hover {
+    opacity: 0.5;
+  }
+  
+  .footer-title {
+    margin: 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #AAAAAA;
+    border-bottom: solid 1px;
+    border-bottom-color: #666666;  
+    padding-bottom: 23px;  
+  }
+  
+  .footer-text {
+    padding: 0;
+    margin-top: 28px;
+  }
+  
+  
+  .connect {
+    display: flex;
+    padding: 0;
+  }
+  
+  .connect li {
+    margin-right: 10px;
+  }
+  
+  .under {
+    margin-bottom: 100px;
+    border-top: solid 1px #666666;
+    width: 1180px;
+    
+  }
+  
+  .under p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-right: 9px;
+  }
+  
+  .under a {
+    font-size: 16px;
+    line-height: 22px;
+    color: #A2A2A2;
+    margin-left: 110px;
+  }
+  
+  .footer-info {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin-top: 10px;  
+  }
+  
+  .footer-info a:hover,
+  .footer-info a:active {
+    text-decoration-line: underline;
+    color: #FFFFFF;
+  }
+  
+  .footer-info p:hover,
+  .footer-info p:active {
+    color: #C29974;
+  }
+  
+  
+  .rating {
+    display: flex;
+    align-items: center;
+    margin-right: 150px;
+  }
+  
+  .rating-star {
+    display: flex;
+    padding: 0;
+    margin-left: 25px;
+  }
+  
+  .rating-star li {
+    margin: 5px;
+  }
+  
+  .rating-star button:hover {
+    color: #C29974;
+  }
+  
+  
+  .footer-form {
+    width: 380px;
+    height: 40px;
+    background: #666666;
+  }
+  
